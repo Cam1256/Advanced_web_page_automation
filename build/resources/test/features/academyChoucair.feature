@@ -6,7 +6,7 @@ Feature: Academy Choucair
     Given than brandon wants to learn automation at the academy Choucair
 
     | strName           | strlastName       |     strEmail             |  strCity    |   strZipcode  |   strPassword   |   strConfirm_password     |
-    | Cristian Camilo   | Cuevas Castañeda  | cristianca84@remail.com  |  Tunja      |   150001      |   Casa1234$%&   |    Casa1234$%&            |
+    | Cristian Camilone | Cuevas Castañeda  | cristianca84@romail.com  |  Tunja      |   150001      |   Casa1234$%&   |    Casa1234$%&            |
 
 
     When he search for course Recursos Automatizacion Bancolombia on the choucair academy platform

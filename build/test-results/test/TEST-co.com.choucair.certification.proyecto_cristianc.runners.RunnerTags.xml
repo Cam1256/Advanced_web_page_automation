@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="co.com.choucair.certification.proyecto_cristianc.runners.RunnerTags" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="MacBook-Pro-de-Cristian.local" time="0.0">
   <properties/>
-  <system-out><![CDATA[REGISTER BASE STEP LISTENER net.thucydides.core.steps.BaseStepListener@7f59ce4f
+  <system-out><![CDATA[REGISTER BASE STEP LISTENER net.thucydides.core.steps.BaseStepListener@7c9702a6
 
 1 Scenarios (?[33m1 undefined?[0m)
 3 Steps (?[33m1 undefined?[0m, ?[32m2 passed?[0m)
-0m34,948s
+0m47,901s
 
 
 You can implement missing steps with the snippets below:
