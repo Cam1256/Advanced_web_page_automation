@@ -1,13 +1,13 @@
 @stories
-Feature: Academy Choucair
-  As a user, i want to learn how to automate in screamplay at the Choucair Academy with the automation course
+Feature: Register at utest platform
+  As a student I want to try testing real models with the learned knowledges
   @scenario1
-  Scenario: Search for a automation course
-    Given than brandon wants to learn automation at the academy Choucair
+  Scenario: Register at the utest page
+    Given than Cristian wants to register at the utest page
 
-    | strName           | strlastName       |     strEmail             |  strCity    |   strZipcode  |   strPassword   |   strConfirm_password     |
-    | Cristian Camilone | Cuevas Castañeda  | cristianca84@romail.com  |  Tunja      |   150001      |   Casa1234$%&   |    Casa1234$%&            |
+    When he introduces the data in platform register form
 
+      | strName           | strlastName       |     strEmail             |  strCity    |   strZipcode  |   strPassword   |   strConfirm_password     |
+      | Cristian Camilone | Cuevas Castañeda  | cristianca84@romail.com  |  Tunja      |   150001      |   Casa1234$%&   |    Casa1234$%&            |
 
-    When he search for course Recursos Automatizacion Bancolombia on the choucair academy platform
-    Then he finds the course called resources Recursos Automatizacion Bancolombia
+    Then he got registtered on the utest platform

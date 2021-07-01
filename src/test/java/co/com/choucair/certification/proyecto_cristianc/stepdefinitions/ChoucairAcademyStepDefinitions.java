@@ -20,17 +20,21 @@ public class ChoucairAcademyStepDefinitions {
         OnStage.setTheStage(new OnlineCast());
     }
 
-    @Given("^than brandon wants to learn automation at the academy Choucair$")
-    public void thanBrandonWantsToLearnAutomationAtTheAcademyChoucair(List<AcademyChoucairData> academyChoucairData ) throws Exception {
-        OnStage.theActorCalled("Brandon").wasAbleTo(OpenUp.thePage(), (Login.
+    @Given("^than Cristian wants to register at the utest page$")
+    public void thanCristianwantstoregisterattheutestpage(){
+        OnStage.theActorCalled("Brandon").wasAbleTo(OpenUp.thePage());
+    }
+
+    @When("^he introduces the data in platform register form$")
+    public void heintroducesthedataintheplatformregisterform(List<AcademyChoucairData> academyChoucairData ) throws Exception {
+        OnStage.theActorCalled("Brandon").wasAbleTo((Login.
                 onThePage(academyChoucairData.get(0).getStrName(),academyChoucairData.get(0).getStrlastName(),academyChoucairData.get(0).getStrEmail(),academyChoucairData.get(0).getStrCity(),academyChoucairData.get(0).getStrZipcode(),academyChoucairData.get(0).getStrPassword(),academyChoucairData.get(0).getStrConfirm_password())));
     }
 
-    @When("^he search for course (.*) on the choucair academy platform$")
-    public void heSearchForCourseAdvancedLevelTestManagerOnTheChoucairAcademyPlatform(String course) {
-        OnStage.theActorInTheSpotlight().attemptsTo(Search.the(course));
+    @Then("^he got registtered on the utest platform$")
+    public void hegotregistteredontheutestplatform() {
     }
-}
+    }
 
 
 
